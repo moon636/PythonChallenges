@@ -1,26 +1,11 @@
-# assign data
-mydata = [
-    ["Nikhil", ""],
-    ["Ravi", ""],
-    ["Manish", ""],
-      ["Prince", ""]
-]
- 
-# create header
-head = ["Name", "City"]
- 
-# display table
-def line(length):
-    string = "-"*length
-    print(string)
-
-def nl():
-    print("\n")
-
-line(30)
-print("|                                                 | List | Array | Tuple |")
-line(30)
-print("| Is it mutable?                                  |      |       |       |")
-print("| Can we change the size after creation?          |      |       |       |")
-print("| Can items in the list be changed?               |      |       |       |")
-print("| How many different types of data can be stored? |      |       |       |")
+print("--------------------------------------------------+-------------+-------------+-------------+")
+print("|                                                 |     List    |    Array    |     Tuple   |")
+print("--------------------------------------------------+-------------+-------------+-------------+")
+print("| Is it mutable?                                  |     Yes     |     Yes     |      No     |")
+print("--------------------------------------------------+-------------+-------------+-------------+")
+print("| Can we change the size after creation?          |     Yes     |     Yes     |      No     |")
+print("--------------------------------------------------+-------------+-------------+-------------+")
+print("| Can items in the list be changed?               |     Yes     |     Yes     |      No     |")
+print("--------------------------------------------------+-------------+-------------+-------------+")
+print("| How many different types of data can be stored? | All of them | All of them | All of them |")
+print("--------------------------------------------------+-------------+-------------+-------------+")
