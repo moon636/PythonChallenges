@@ -44,6 +44,6 @@ sampleDict = {
     "city":"New york"
     }
 
-sampleDict["wage"] = sampleDict.pop("salary")
+sampleDict["location"] = sampleDict.pop("city")
 
 print(sampleDict)
